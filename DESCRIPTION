@@ -2,7 +2,7 @@ Package: RIdeogram
 Type: Package
 Title: Drawing SVG Graphics to Visualize and Map Genome-Wide Data in
         Idiograms
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Zhaodong", "Hao", email = "haozd1992@163.com", role = c("aut", "cre")),
 	     person("Dekang", "Lv", email = "dekanglv@126.com", role = "aut"),
 	     person("Ying", "Ge", email = "geying.tju@gmail.com", role = "aut"),
@@ -20,7 +20,7 @@ RoxygenNote: 6.1.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-01-03 13:38:04 UTC; haozhaodong
+Packaged: 2019-01-15 14:53:58 UTC; haozhaodong
 Author: Zhaodong Hao [aut, cre],
   Dekang Lv [aut],
   Ying Ge [aut],
@@ -28,4 +28,4 @@ Author: Zhaodong Hao [aut, cre],
   Guangchuang Yu [aut],
   Jinhui Chen [aut]
 Repository: CRAN
-Date/Publication: 2019-01-08 17:30:15 UTC
+Date/Publication: 2019-01-15 15:50:11 UTC
