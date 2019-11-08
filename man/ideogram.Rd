@@ -4,8 +4,8 @@
 \alias{ideogram}
 \title{ideogram}
 \usage{
-ideogram(karyotype, overlaid = NULL, label = NULL,
-  colorset1 = c("#4575b4", "#ffffbf", "#d73027"),
+ideogram(karyotype, overlaid = NULL, label = NULL, label_type = NULL,
+  synteny = NULL, colorset1 = c("#4575b4", "#ffffbf", "#d73027"),
   colorset2 = c("#b35806", "#f7f7f7", "#542788"), width = 170,
   Lx = 160, Ly = 35, output = "chromosome.svg")
 }
@@ -16,9 +16,13 @@ ideogram(karyotype, overlaid = NULL, label = NULL,
 
 \item{label}{track label data}
 
-\item{colorset1}{overlaid heatmap-1 color}
+\item{label_type}{track label type, only support four types: marker, heatmap, line and polygon}
 
-\item{colorset2}{overlaid heatmap-2 color}
+\item{synteny}{synteny data}
+
+\item{colorset1}{overlaid heatmap color}
+
+\item{colorset2}{label heatmap color}
 
 \item{width}{width of plot region}
 
@@ -48,13 +52,13 @@ head(human_karyotype)
 head(gene_density)
 head(Random_RNAs_500)
 
-# Running the function
-ideogram(karyotype = human_karyotype)
-convertSVG("chromosome.svg", device = "png")
+# Running the function (Remove "#" before you run the following codes)
+# ideogram(karyotype = human_karyotype)
+# convertSVG("chromosome.svg", device = "png")
 
 # Then, you will find a SVG file and a PNG file in your Working Directory.
 
 }
 \author{
-Zhaodong Hao, Dekang Lv, Ying Ge, Jisen Shi, Guangchuang Yu, Jinhui Chen
+Zhaodong Hao, Dekang Lv, Ying Ge, Jisen Shi, Dolf Weijers, Guangchuang Yu, Jinhui Chen
 }

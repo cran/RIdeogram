@@ -1,31 +1,34 @@
 Package: RIdeogram
 Type: Package
-Title: Drawing SVG Graphics to Visualize and Map Genome-Wide Data in
+Title: Drawing SVG Graphics to Visualize and Map Genome-Wide Data on
         Idiograms
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: c(person("Zhaodong", "Hao", email = "haozd1992@163.com", role = c("aut", "cre")),
 	     person("Dekang", "Lv", email = "dekanglv@126.com", role = "aut"),
 	     person("Ying", "Ge", email = "geying.tju@gmail.com", role = "aut"),
 	     person("Jisen", "Shi", email = "Jshi@njfu.edu.cn", role = "aut"),
+	     person("Weijers", "Dolf", email = "dolf.weijers@wur.nl", role = "aut"),
 	     person("Guangchuang", "Yu", email = "guangchuangyu@gmail.com", role = "aut"),
 	     person("Jinhui", "Chen", email = "chenjh@njfu.edu.cn", role = "aut"))
 Maintainer: Zhaodong Hao <haozd1992@163.com>
-Description: For whole-genome analysis, idiograms are virtually the most intuitive and effective way to map and visualize the genome-wide information. RIdeogram was developed to visualize and map whole-genome data in idiograms with no restriction of species.
+Description: For whole-genome analysis, idiograms are virtually the most intuitive and effective way to map and visualize the genome-wide information. RIdeogram was developed to visualize and map whole-genome data on idiograms with no restriction of species.
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.4.0)
-Imports: ggplot2, grDevices, grImport2, rsvg, scales, tools
+Depends: R (>= 3.5.0)
+Imports: ggplot2, grDevices, grImport2, rsvg, scales, tools, tidyr,
+        utils
 RoxygenNote: 6.1.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-01-15 14:53:58 UTC; haozhaodong
+Packaged: 2019-11-08 14:38:45 UTC; haozhaodong
 Author: Zhaodong Hao [aut, cre],
   Dekang Lv [aut],
   Ying Ge [aut],
   Jisen Shi [aut],
+  Weijers Dolf [aut],
   Guangchuang Yu [aut],
   Jinhui Chen [aut]
 Repository: CRAN
-Date/Publication: 2019-01-15 15:50:11 UTC
+Date/Publication: 2019-11-08 15:00:02 UTC
