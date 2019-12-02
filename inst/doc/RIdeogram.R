@@ -39,7 +39,7 @@ head(karyotype_dual_comparison)
 table(karyotype_dual_comparison$species)
 
 data(synteny_dual_comparison, package="RIdeogram")
-head(karyotype_dual_comparison)
+head(synteny_dual_comparison)
 
 ## ------------------------------------------------------------------------
 data(karyotype_ternary_comparison, package="RIdeogram")
