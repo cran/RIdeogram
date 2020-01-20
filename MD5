@@ -1,9 +1,9 @@
-23b2aceeb3f54339507788f7995ed7d1 *DESCRIPTION
+7c3bbf31a94e843c49317ed433e113e1 *DESCRIPTION
 996ad15cd9ac71a09a31fee61ae5b184 *NAMESPACE
 331a28a126caa32f1199edd6f8e528f9 *R/GFFex.R
 ad3b5aa9cc6137b04299df08ded11398 *R/convertSVG.R
-f18caba4e188d3fd78360e6629e48601 *R/ideogram.R
-1fc65359db58384bbc9e8cceca227703 *README.md
+f7627d9e5020aac0d34d435eeb3fba16 *R/ideogram.R
+8e5662cc4002a79c3b6471dafd785280 *README.md
 363cc72261d8d4125e969fcf603459e4 *build/vignette.rds
 0eae3ff799a34dc96f6a0ff7b928c13b *data/Fst_between_CE_and_CW.rda
 934127d29cfc939a49da868761dde905 *data/LTR_density.rda
@@ -19,8 +19,8 @@ b49e733d0880cc0b0a5f3be246265c23 *data/synteny_dual_comparison.rda
 479e18d77f1b7b699aaf510c541f07ca *data/synteny_ternary_comparison.rda
 9cf03152efa5813d91586a24f03d1883 *data/synteny_ternary_comparison_graident.rda
 44c3384b31ea87b1eda81087834e5333 *inst/doc/RIdeogram.R
-6183b5685e720a92556b62f1e2c97ee1 *inst/doc/RIdeogram.Rmd
-c2acddd71b1e2f2f04b5c8c0af40d1b7 *inst/doc/RIdeogram.html
+65bb9c877d54e62fd68a4b365c562617 *inst/doc/RIdeogram.Rmd
+3b25b31f56fd3845ca6d52cfc4e7e505 *inst/doc/RIdeogram.html
 47f95f28f4653cbcaec4663db639698b *man/Fst_between_CE_and_CW.Rd
 0effe211d77f07813495b7b7f2d99948 *man/GFFex.Rd
 545933be4832dc0525bac2fff5cd6712 *man/LTR_density.Rd
@@ -37,7 +37,7 @@ f1fc7e8518b05e6d43b7191d13078993 *man/karyotype_ternary_comparison.Rd
 4d81eeaf74276295b146f0c3a7fb0350 *man/synteny_dual_comparison.Rd
 ac1db2dcedd25192b2f24222a7ca43bd *man/synteny_ternary_comparison.Rd
 49390f47805d88019c870e9757521966 *man/synteny_ternary_comparison_graident.Rd
-6183b5685e720a92556b62f1e2c97ee1 *vignettes/RIdeogram.Rmd
+65bb9c877d54e62fd68a4b365c562617 *vignettes/RIdeogram.Rmd
 69036b353cba47388fc9e89be1e0ca01 *vignettes/figures/example1.png
 e30e5cf14448e9757a1f9de19b102b63 *vignettes/figures/example10.png
 98deb8a9cfc50b2a60885798a46c1006 *vignettes/figures/example11.png
